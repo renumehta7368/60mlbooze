@@ -1,0 +1,237 @@
+
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+
+.html{
+    scroll-behavior: smooth;
+}
+.logo{
+    width:30%;
+    justify-content: start;
+    
+}
+.logo img{
+    width: 38%;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    margin: 5px;  
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top:0;
+    cursor: pointer; 
+}
+
+.nav-list{
+    width: 70%; 
+    display: flex; 
+    align-items: end;
+    justify-content: start;
+}
+.nav-right{
+    width: 70%; 
+    display: flex; 
+    align-items: end;
+    justify-content:flex-end;
+}
+
+.nav-right li{
+    list-style: none;
+    padding: 16px 35px;
+    cursor: pointer;
+}
+
+.nav-right li a{
+    text-decoration: none;
+    color: rgb(216, 198, 61);
+    font-size: 20px;
+    align-items: end;
+    
+}
+.firstHalf a{
+    color: rgb(24, 129, 22);
+}
+
+.nav-right li a:hover{ 
+    color: rgb(252, 249, 249);
+}
+.social-media a {
+    align-items: center;
+    font-weight: 200;
+    color: rgb(78, 158, 31);
+    cursor: pointer;
+    font-size: larger;
+}
+.social-media2 a{
+    align-items: center;
+    font-weight: 200;
+    color: rgb(57, 165, 24);
+    
+    font-size: larger;
+}
+
+
+
+.background{
+    background: rgba(4, 4, 4, 0.7)  url("https://hips.hearstapps.com/digitalspyuk.cdnds.net/18/36/1536401599-potion-making-2.gif?resize=980:*");
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.firstSection{
+    height: 100vh;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(171, 165, 55);
+    max-width: 80%;
+    margin: auto;
+        height: 100%;
+}
+
+.firstHalf{
+    width: 80%;
+    
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.text-big{
+    font-size: 30px;
+    align-items: end;
+    color: #d6bb58;
+    font-weight: 589;
+    text-shadow: #e1e1ea;
+    
+}
+.button{
+    font-weight: 500;
+    
+}
+.text{
+    font-size: 22px;
+    
+}
+
+.text-small{
+    font-size: 18px;
+    color: #ddef39;
+}
+
+.btn{
+    padding: 8px 20px;
+    margin: 7px 3px;
+    border: 2px solid rgb(215, 187, 61);
+    border-radius: 8px; 
+    background: none;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.btn-sm{
+    padding: 6px 10px;
+    vertical-align: middle;
+    font-size: 16px;
+}
+
+.btn-dark{
+    color: rgb(219, 225, 49);
+        border: 2px solid grey;
+
+}
+.section{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 70%;
+    margin: 90px;
+    padding: 100px;
+    height: 200px;
+}
+
+.section-left{
+    flex-direction: row-reverse;
+    margin: 500;
+    padding-left:200px ;
+}
+
+.parse{
+    padding: 540px 655px;
+    
+    
+}
+
+
+.sectionTag{
+    padding: 16px 0;
+}
+
+.thumbnail img{
+    width: 220px;
+    height: 170px;
+    border: 2px solid rgb(178, 180, 47);
+    border-radius: 26px;
+    margin-top: 19px;
+}
+
+.contact{
+    background-color: #fcfcfc;
+    height: 200px;
+    margin:23%;
+}
+.text-center{
+
+    text-align: center;
+    padding-top: 30px;
+       font-size: 35px; 
+}
+
+.form{
+    max-width: 62%;
+    margin: 25px auto;
+}
+
+.form-input{
+    margin: 14px 0;
+    padding: 5px 13px;
+    width: 100%; 
+    font-size: 19px;
+    border: 2px solid rgb(199, 187, 61);
+    border-radius: 6px;
+   
+}
+
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e1ef45;
+    padding: 30px 80px;
+    
+    
+  }
+  
+  .footer .copy {
+    color: #fff;
+  }
+  
+ 
+ 
